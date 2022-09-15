@@ -1,0 +1,36 @@
+.nav {
+  z-index: 3000;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 2rem 5rem !important;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  background-color: rgba(255, 255, 255, 0.705);
+  backdrop-filter: blur(5px);
+}
+
+.navLeft {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+}
+p {
+  margin-right: 4rem;
+  font-size: 1.2rem;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+.nav-last {
+  margin-right: 0;
+}
+.fontawesome {
+  margin-left: 2rem;
+  color: #292929;
+}
+.progressBar {
+  height: 10px;
+}

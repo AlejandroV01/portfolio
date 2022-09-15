@@ -1,0 +1,97 @@
+h1 {
+  font-size: 3.5rem;
+}
+.project-title {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.projects {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 20rem;
+  overflow: hidden;
+}
+.project-div {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.project-image-div {
+  grid-row: 1 / 2;
+}
+.project-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-information {
+  display: flex;
+  flex-direction: column;
+  grid-row: 1 / 2;
+}
+.info-right {
+  grid-column: 7 / -1;
+  align-items: flex-end;
+}
+.picture-left {
+  grid-column: 1 / 8;
+}
+.info-left {
+  grid-column: 1 / 7;
+  align-items: flex-start;
+}
+.picture-right {
+  grid-column: 6 / -1;
+}
+.project-information h1 {
+  font-size: 2rem;
+}
+.project-description {
+  background-color: #baaea0;
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 550px;
+}
+.pProject {
+  margin: 0;
+}
+.desc-right {
+  text-align: end;
+}
+.desc-left {
+  text-align: start;
+}
+.project-skills {
+  display: flex;
+  width: calc(100%);
+}
+.project-skills p {
+  font-weight: 500;
+  margin-right: 12px;
+}
+.noMargin {
+  margin: 0 !important;
+}
+.links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10px;
+}
+.links a {
+  flex-direction: row;
+  color: #292929;
+}
+
+.inverseFlex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fontawesomeProject {
+  margin: 0;
+}

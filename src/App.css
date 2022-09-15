@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+/* // $backgroundColor: #ddd7d0;
+// $headerColor: #ce5252;
+// $paragraphColor: #292929;
+// $containerColor: #baaea0; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  background-color: #ddd7d0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Comfortaa", sans-serif;
+  color: #ce5252;
+}
+
+p,
+li,
+label,
+input,
+textarea,
+span {
+  font-family: "Raleway", sans-serif;
+  color: #292929;
+}
+
+.container {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}

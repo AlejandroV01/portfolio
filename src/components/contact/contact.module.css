@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  margin: 0 100px;
+  max-width: 1200px;
+  margin: auto;
+}
+.projectTitleDiv {
+  text-align: center;
+}
+.contactDiv {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.582);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+}
+.iconDiv {
+  background-color: rgba(0, 0, 0, 0.062);
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.labels {
+  font-size: 1.4rem;
+}
+.textarea {
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  background-color: rgba(255, 255, 255, 0.582);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 110px;
+}
+
+.inputs {
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.582);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+.button {
+  background-color: #ce5252;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.popContainer,
+.popContainerOff {
+  position: absolute;
+  background-color: #baaea0;
+  border-radius: 5px;
+  padding: 2rem;
+  opacity: 1;
+  transition: 300ms;
+  color: black !important;
+}
+.popContainer h1 {
+  color: black !important;
+}
+
+.popContainerOff {
+  transform: scale(0.5);
+  opacity: 0;
+  transition: 300ms;
+  color: black !important;
+}

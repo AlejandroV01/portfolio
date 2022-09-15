@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutContainer {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  padding-bottom: 5rem;
+  max-width: 1000px;
+}
+
+.aboutLeftSide,
+.aboutRightSide {
+  grid-row: 1 / 2;
+}
+
+.aboutLeftSide {
+  grid-column: 1 / 6;
+  text-align: start;
+}
+.aboutLeftSide p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-right: 0;
+}
+.currentSkills {
+  display: flex;
+}
+.currentSkills ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 5rem;
+}
+.currentSkills li {
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+}
+.currentSkills li::before {
+  content: "‣";
+  color: #ce5252;
+}
+.aboutRightSide {
+  grid-column: 6 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectTitle {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.aboutPic {
+  width: 100%;
+}
+@media only screen and(max-width: 1450px) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .aboutPic {
+    width: 300px;
+  }
+}
