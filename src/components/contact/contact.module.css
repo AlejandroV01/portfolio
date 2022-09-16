@@ -99,3 +99,35 @@
   transition: 300ms;
   color: black !important;
 }
+
+@media (max-width: 880px) {
+  .contactDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .leftSide {
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .bar h2 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 430px) {
+  .contactDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .leftSide {
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .bar h2 {
+    font-size: 1.1rem;
+  }
+  .textarea {
+    width: 300px;
+  }
+}

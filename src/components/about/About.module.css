@@ -58,12 +58,12 @@
 .aboutPic {
   width: 100%;
 }
-@media only screen and(max-width: 1450px) {
+@media (max-width: 950px) {
   .aboutContainer {
     display: flex;
     flex-direction: column-reverse;
   }
   .aboutPic {
-    width: 300px;
+    width: 350px;
   }
 }

@@ -72,7 +72,7 @@ const About = () => {
             viewport={{ once: true }}
             src={require("../mesmall.png")}
             alt="myImage"
-            className={styles.AboutPic}
+            className={styles.aboutPic}
           />
         </div>
       </div>

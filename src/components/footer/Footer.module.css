@@ -34,3 +34,12 @@
   cursor: pointer;
   width: 110px;
 }
+@media (max-width: 500px) {
+  .pTag {
+    font-size: 1.05rem;
+  }
+  .buttons button {
+    font-size: 1.2rem;
+    width: 80px;
+  }
+}

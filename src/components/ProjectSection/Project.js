@@ -3,6 +3,10 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import React from "react";
+import pic1 from "./algo.PNG";
+import pic4 from "./country.PNG";
+import pic3 from "./dictionary.PNG";
+import pic2 from "./pokemon.PNG";
 import "./Project.css";
 const Project = () => {
   const rightProjectAnimation = {
@@ -38,14 +42,11 @@ const Project = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={rightProjectAnimation}
-        className="project-div"
+        className="project-div project1"
       >
         <a href="/" className="project-image-div picture-left">
-          <img
-            src="https://miro.medium.com/max/1400/1*o5JioPIf2Y7fwXWvhLf_CA.png"
-            alt=""
-            className="project-image"
-          />
+          <img src={pic1} alt="" className="project-image" />
+          <div className="overlay"></div>
         </a>
         <div className="project-information info-right">
           <h1>Pokemon API</h1>
@@ -63,7 +64,7 @@ const Project = () => {
             <p>Sass</p>
             <p>API</p>
             <p>VS Code</p>
-            <p>END</p>
+            <p className="noMarginv2">END</p>
           </div>
           <div className="links">
             <a href="https://github.com/AlejandroV01">
@@ -91,14 +92,11 @@ const Project = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={leftProjectAnimation}
-        className="project-div"
+        className="project-div project2"
       >
         <a href="/" className="project-image-div picture-right">
-          <img
-            src="https://miro.medium.com/max/1400/1*o5JioPIf2Y7fwXWvhLf_CA.png"
-            alt=""
-            className="project-image"
-          />
+          <img src={pic2} alt="" className="project-image" />
+          <div className="overlay"></div>
         </a>
         <div className="project-information info-left">
           <h1>Pokemon API</h1>
@@ -143,14 +141,11 @@ const Project = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={rightProjectAnimation}
-        className="project-div"
+        className="project-div project3"
       >
         <a href="/" className="project-image-div picture-left">
-          <img
-            src="https://miro.medium.com/max/1400/1*o5JioPIf2Y7fwXWvhLf_CA.png"
-            alt=""
-            className="project-image"
-          />
+          <img src={pic3} alt="" className="project-image" />
+          <div className="overlay"></div>
         </a>
         <div className="project-information info-right">
           <h1>Pokemon API</h1>
@@ -168,7 +163,7 @@ const Project = () => {
             <p>Sass</p>
             <p>API</p>
             <p>VS Code</p>
-            <p>END</p>
+            <p className="noMarginv2">END</p>
           </div>
           <div className="links">
             <a href="https://github.com/AlejandroV01">
@@ -195,14 +190,11 @@ const Project = () => {
         whileInView="visible"
         viewport={{ once: true }}
         variants={leftProjectAnimation}
-        className="project-div"
+        className="project-div project4"
       >
         <a href="/" className="project-image-div picture-right">
-          <img
-            src="https://miro.medium.com/max/1400/1*o5JioPIf2Y7fwXWvhLf_CA.png"
-            alt=""
-            className="project-image"
-          />
+          <img src={pic4} alt="" className="project-image" />
+          <div className="overlay"></div>
         </a>
         <div className="project-information info-left">
           <h1>Pokemon API</h1>

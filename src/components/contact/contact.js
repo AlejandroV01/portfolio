@@ -1,20 +1,17 @@
 import emailjs from "@emailjs/browser";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 import styles from "./contact.module.css";
-const Contact = ({ isVisible }) => {
+const Contact = () => {
   const [isPopup, setIsPopup] = useState(false);
   const headerAnimation = {
     hidden: { opacity: 0, y: -40 },
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
   };
-  const popupAnimation = {
-    hidden: { opacity: 0, scale: 0.5 },
-    visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
-  };
+
   const form = useRef();
 
   const sendEmail = (e) => {
