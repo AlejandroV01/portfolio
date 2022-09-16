@@ -230,6 +230,7 @@ h1 {
   }
   .project-information h1 {
     font-size: 1.5rem;
+    margin-top: 10px;
   }
   .project-image-div {
     height: 300px;

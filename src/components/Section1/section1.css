@@ -82,3 +82,12 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero {
+    width: 300px;
+  }
+}
