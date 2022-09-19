@@ -31,6 +31,24 @@ p {
   margin-left: 2rem;
   color: #292929;
 }
-.progressBar {
-  height: 10px;
+
+.burgerMenuDiv > a {
+  background-color: #292929;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hamburgerDiv {
+  display: none;
+}
+@media (max-width: 850px) {
+  .navLeft {
+    display: none;
+  }
+  .hamburgerDiv {
+    display: block;
+  }
 }
