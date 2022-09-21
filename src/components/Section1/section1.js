@@ -30,7 +30,7 @@ const section1 = () => {
         animate="show"
       >
         <motion.h1 variants={item}>Hi. I'm Alejandro.</motion.h1>
-        <motion.h1 variants={item}>An Aspiring Developer.</motion.h1>
+        <motion.h1 variants={item}>A Frontend Developer.</motion.h1>
         <motion.p variants={item}>
           Building up projects and learning more{" "}
         </motion.p>
