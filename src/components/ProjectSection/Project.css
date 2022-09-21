@@ -98,6 +98,7 @@ h1 {
 .project-information h1 a {
   color: #ce5252;
 }
+
 @media (max-width: 1050px) {
   .project-div {
     max-width: 850px;

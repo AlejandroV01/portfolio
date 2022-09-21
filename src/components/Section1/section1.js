@@ -20,7 +20,7 @@ const section1 = () => {
 
   return (
     <div className="sec1 container">
-      <a name="toHome" href=" ">
+      <a name="toHome" href=" " className="anchor">
         {" "}
       </a>
       <motion.div

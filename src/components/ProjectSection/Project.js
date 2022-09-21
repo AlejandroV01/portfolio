@@ -2,7 +2,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useRef } from "react";
 import pic1 from "./algo.PNG";
 import pic4 from "./country.PNG";
 import pic3 from "./dictionary.PNG";
@@ -24,8 +24,8 @@ const Project = () => {
 
   return (
     <div className="projects">
-      <a name="toProjects" href=" ">
-        {" "}
+      <a name="toProjects" href=" " className="anchor">
+        a
       </a>
       <motion.h1
         className="project-title"
@@ -62,9 +62,7 @@ const Project = () => {
               can also add more bars in the chart to sort and make the algorithm
               go faster or slower to further help the user visualize exactly
               what is going on. Information is also displayed on each algorithm
-              which gives a description of how the algorithms work. This
-              visualizing platform helps newer programmers grasp a better
-              understanding of how algorithms work.
+              which gives a description of how the algorithms work.
             </p>
           </div>
           <div className="project-skills  inverseFlex">

@@ -31,16 +31,16 @@ const Nav = () => {
     <div className="containerOfNav">
       <nav className="container scrolled nav">
         <div className="navLeft">
-          <a href="/">
+          <a href="#toHome">
             <p className="navBarP">Home</p>
           </a>
-          <a href="/">
+          <a href="#toProjects">
             <p className="navBarP">Projects</p>
           </a>
-          <a href="/">
+          <a href="#toAbout">
             <p className="navBarP">About</p>
           </a>
-          <a href="/">
+          <a href="#toContact">
             <p className="nav-last navBarP">Contact</p>
           </a>
         </div>

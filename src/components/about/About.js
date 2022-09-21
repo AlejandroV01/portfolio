@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <div className={styles.container}>
-      <a name="toAbout" href=" ">
+      <a name="toAbout" href=" " className="anchor">
         {" "}
       </a>
       <motion.h1
