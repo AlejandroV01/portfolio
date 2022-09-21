@@ -91,3 +91,9 @@
     width: 300px;
   }
 }
+
+@media (max-width: 400px) {
+  .box-area {
+    display: none;
+  }
+}

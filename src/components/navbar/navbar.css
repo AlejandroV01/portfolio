@@ -54,4 +54,7 @@ p {
   .hamburgerDiv {
     display: block;
   }
+  .nav {
+    padding: 2rem 2rem !important;
+  }
 }
