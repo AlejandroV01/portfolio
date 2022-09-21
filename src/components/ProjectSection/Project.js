@@ -44,37 +44,45 @@ const Project = () => {
         variants={rightProjectAnimation}
         className="project-div project1"
       >
-        <a href="/" className="project-image-div picture-left">
+        <a
+          href="https://algo-saurus.web.app/"
+          className="project-image-div picture-left"
+        >
           <img src={pic1} alt="" className="project-image" />
           <div className="overlay"></div>
         </a>
         <div className="project-information info-right">
-          <h1>Pokemon API</h1>
+          <h1>
+            <a href="https://algo-saurus.web.app/">AlgoSaurus</a>
+          </h1>
           <div className="project-description desc-right">
             <p className="pProject">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              cum. Esse quibusdam error quisquam repellendus dicta deleniti
-              iusto doloremque sapiente corrupti molestiae reprehenderit
-              blanditiis nulla dolor, laboriosam mollitia ullam itaque?
+              AlgoSaurus implements all the most used sorting algorithms and
+              visualizes them in a chart that has live animated sorting. Users
+              can also add more bars in the chart to sort and make the algorithm
+              go faster or slower to further help the user visualize exactly
+              what is going on. Information is also displayed on each algorithm
+              which gives a description of how the algorithms work. This
+              visualizing platform helps newer programmers grasp a better
+              understanding of how algorithms work.
             </p>
           </div>
           <div className="project-skills  inverseFlex">
-            <p className="noMargin">START</p>
-            <p>React.js</p>
-            <p>Sass</p>
+            <p className="noMargin">Firebase</p>
+            <p>Algorithms</p>
             <p>API</p>
-            <p>VS Code</p>
-            <p className="noMarginv2">END</p>
+            <p>React.js</p>
+            <p>TypeScript</p>
           </div>
           <div className="links">
-            <a href="https://github.com/AlejandroV01">
+            <a href="https://github.com/fidel-bello/shellhacks-visualizer">
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="/">
+            <a href="https://algo-saurus.web.app/">
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
@@ -94,37 +102,40 @@ const Project = () => {
         variants={leftProjectAnimation}
         className="project-div project2"
       >
-        <a href="/" className="project-image-div picture-right">
+        <a
+          href="https://alejandropokemonapi.netlify.app/"
+          className="project-image-div picture-right"
+        >
           <img src={pic2} alt="" className="project-image" />
           <div className="overlay"></div>
         </a>
         <div className="project-information info-left">
-          <h1>Pokemon API</h1>
+          <h1>
+            <a href="https://alejandropokemonapi.netlify.app/">Pokemon API</a>
+          </h1>
           <div className="project-description desc-left">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              cum. Esse quibusdam error quisquam repellendus dicta deleniti
-              iusto doloremque sapiente corrupti molestiae reprehenderit
-              blanditiis nulla dolor, laboriosam mollitia ullam itaque?
+              This Pokemon API searches through over 800 pokemons to display to
+              the user. This projects uses an extensive API which has a myriad
+              of information on each pokemon. The user can either choose to
+              search for a pokemon of their liking, or generate one at random.
             </p>
           </div>
           <div className="project-skills">
-            <p>START</p>
+            <p>JavaScript</p>
             <p>React.js</p>
-            <p>Sass</p>
             <p>API</p>
             <p>VS Code</p>
-            <p className="noMargin">END</p>
           </div>
           <div className="links">
-            <a href="https://github.com/AlejandroV01">
+            <a href="https://github.com/AlejandroV01/pokemonAPI">
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="/">
+            <a href="https://alejandropokemonapi.netlify.app/">
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
@@ -143,37 +154,41 @@ const Project = () => {
         variants={rightProjectAnimation}
         className="project-div project3"
       >
-        <a href="/" className="project-image-div picture-left">
+        <a
+          href="https://alejandrodictionaryapi.netlify.app/"
+          className="project-image-div picture-left"
+        >
           <img src={pic3} alt="" className="project-image" />
           <div className="overlay"></div>
         </a>
         <div className="project-information info-right">
-          <h1>Pokemon API</h1>
+          <h1>
+            <a href="https://alejandrodictionaryapi.netlify.app/">Dictionary</a>
+          </h1>
           <div className="project-description desc-right">
             <p className="pProject">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              cum. Esse quibusdam error quisquam repellendus dicta deleniti
-              iusto doloremque sapiente corrupti molestiae reprehenderit
-              blanditiis nulla dolor, laboriosam mollitia ullam itaque?
+              A simple yet educational web app which displays various
+              information on an input of a word. This web app returns to the
+              user the definition of the word, the part of speech, and an audio
+              of how to pronounce the word.
             </p>
           </div>
           <div className="project-skills  inverseFlex">
-            <p className="noMargin">START</p>
-            <p>React.js</p>
-            <p>Sass</p>
+            <p className="noMargin">VS Code</p>
+            <p>Sound</p>
             <p>API</p>
-            <p>VS Code</p>
-            <p className="noMarginv2">END</p>
+            <p>React.js</p>
+            <p>JavaScript</p>
           </div>
           <div className="links">
-            <a href="https://github.com/AlejandroV01">
+            <a href="https://github.com/AlejandroV01/DictionaryAPI">
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="/">
+            <a href="https://alejandrodictionaryapi.netlify.app/">
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
@@ -192,37 +207,41 @@ const Project = () => {
         variants={leftProjectAnimation}
         className="project-div project4"
       >
-        <a href="/" className="project-image-div picture-right">
+        <a
+          href="https://alejandrocountryapi.netlify.app/"
+          className="project-image-div picture-right"
+        >
           <img src={pic4} alt="" className="project-image" />
           <div className="overlay"></div>
         </a>
         <div className="project-information info-left">
-          <h1>Pokemon API</h1>
+          <h1>
+            <a href="https://alejandrocountryapi.netlify.app/">Country API</a>
+          </h1>
           <div className="project-description desc-left">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              cum. Esse quibusdam error quisquam repellendus dicta deleniti
-              iusto doloremque sapiente corrupti molestiae reprehenderit
-              blanditiis nulla dolor, laboriosam mollitia ullam itaque?
+              This project displays to users multiple information about a
+              country to the user. Using a massive API, data like a country's
+              flag, coat of arms, capital, continent, population, languages, and
+              currencies will all be grabbed and displayed to users in a custom
+              layout.
             </p>
           </div>
           <div className="project-skills">
-            <p>START</p>
+            <p>JavaScript</p>
             <p>React.js</p>
-            <p>Sass</p>
             <p>API</p>
             <p>VS Code</p>
-            <p className="noMargin">END</p>
           </div>
           <div className="links">
-            <a href="https://github.com/AlejandroV01">
+            <a href="https://github.com/AlejandroV01/CountryAPI">
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="/">
+            <a href="https://alejandrocountryapi.netlify.app/">
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
