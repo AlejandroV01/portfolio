@@ -1,15 +1,32 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
 import { React, useState } from "react";
 import "./navbar.css";
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const handleMenu = () => {
+  const handleShowMenu = () => {
     setShowMenu((prev) => !prev);
   };
+
   console.log(showMenu);
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
+  };
+
   return (
     <div className="containerOfNav">
       <nav className="container scrolled nav">
@@ -27,7 +44,7 @@ const Nav = () => {
             <p className="nav-last navBarP">Contact</p>
           </a>
         </div>
-        <div className="hamburgerDiv" onClick={handleMenu}>
+        <div className="hamburgerDiv" onClick={handleShowMenu}>
           <FontAwesomeIcon icon={faBars} size="2x" />
         </div>
         <div className="socials flex">
@@ -68,20 +85,33 @@ const Nav = () => {
       </nav>
       {showMenu ? (
         <>
-          <div className="burgerMenuDiv">
-            <a href="#toHome">
+          <motion.div
+            className="burgerMenuDiv"
+            variants={container}
+            initial="hidden"
+            animate="show"
+          >
+            <motion.a href="#toHome" variants={item} onClick={handleShowMenu}>
               <h3>HOME</h3>
-            </a>
-            <a href="#toProjects">
+            </motion.a>
+            <motion.a
+              href="#toProjects"
+              variants={item}
+              onClick={handleShowMenu}
+            >
               <h3>PROJECTS</h3>
-            </a>
-            <a href="#toAbout">
+            </motion.a>
+            <motion.a href="#toAbout" variants={item} onClick={handleShowMenu}>
               <h3>ABOUT</h3>
-            </a>
-            <a href="#toContact">
+            </motion.a>
+            <motion.a
+              href="#toContact"
+              variants={item}
+              onClick={handleShowMenu}
+            >
               <h3>CONTACT</h3>
-            </a>
-          </div>
+            </motion.a>
+          </motion.div>
         </>
       ) : (
         <h1> </h1>

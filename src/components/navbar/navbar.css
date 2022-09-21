@@ -1,17 +1,19 @@
+.containerOfNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+}
 .nav {
   z-index: 3000;
-  position: relative;
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
   padding: 2rem 5rem !important;
-  align-items: center;
-  top: 0;
-  position: sticky;
   background-color: rgba(255, 255, 255, 0.705);
   backdrop-filter: blur(5px);
+  align-items: center;
 }
-
 .navLeft {
   display: flex;
 }
@@ -34,12 +36,13 @@ p {
 
 .burgerMenuDiv > a {
   background-color: #292929;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px #baaea0 solid;
 }
 .hamburgerDiv {
   display: none;
