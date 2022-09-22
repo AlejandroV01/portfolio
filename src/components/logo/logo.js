@@ -13,7 +13,7 @@ const Logo = () => {
     leftSide = windowX.current * -1 - 600;
     console.log(leftSide);
   });
-  let con = 0;
+  //   let con = 0;
   return (
     <motion.div drag>
       <motion.img
