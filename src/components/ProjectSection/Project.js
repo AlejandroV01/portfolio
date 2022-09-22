@@ -48,6 +48,7 @@ const Project = () => {
           className="project-image-div picture-left"
           target="_blank"
           rel="noreferrer"
+          name="Link to Website"
         >
           <img src={pic1} alt="" className="project-image" />
           <div className="overlay"></div>
@@ -58,6 +59,7 @@ const Project = () => {
               href="https://algo-saurus.web.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               AlgoSaurus
             </a>
@@ -84,6 +86,7 @@ const Project = () => {
               href="https://github.com/fidel-bello/shellhacks-visualizer"
               target="_blank"
               rel="noreferrer"
+              name="Link to GitHub Repo"
             >
               <FontAwesomeIcon
                 icon={faGithub}
@@ -95,6 +98,7 @@ const Project = () => {
               href="https://algo-saurus.web.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
@@ -120,6 +124,7 @@ const Project = () => {
           className="project-image-div picture-right"
           target="_blank"
           rel="noreferrer"
+          name="Link to Website"
         >
           <img src={pic2} alt="" className="project-image" />
           <div className="overlay"></div>
@@ -130,6 +135,7 @@ const Project = () => {
               href="https://alejandropokemonapi.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               Pokemon API
             </a>
@@ -153,6 +159,7 @@ const Project = () => {
               href="https://github.com/AlejandroV01/pokemonAPI"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               <FontAwesomeIcon
                 icon={faGithub}
@@ -164,6 +171,7 @@ const Project = () => {
               href="https://alejandropokemonapi.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
@@ -188,6 +196,7 @@ const Project = () => {
           className="project-image-div picture-left"
           target="_blank"
           rel="noreferrer"
+          name="Link to Website"
         >
           <img src={pic3} alt="" className="project-image" />
           <div className="overlay"></div>
@@ -198,6 +207,7 @@ const Project = () => {
               href="https://alejandrodictionaryapi.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               Dictionary
             </a>
@@ -222,6 +232,7 @@ const Project = () => {
               href="https://github.com/AlejandroV01/DictionaryAPI"
               target="_blank"
               rel="noreferrer"
+              name="Link to GitHub Repo"
             >
               <FontAwesomeIcon
                 icon={faGithub}
@@ -233,6 +244,7 @@ const Project = () => {
               href="https://alejandrodictionaryapi.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
@@ -257,6 +269,7 @@ const Project = () => {
           target="_blank"
           rel="noreferrer"
           className="project-image-div picture-right"
+          name="Link to Website"
         >
           <img src={pic4} alt="" className="project-image" />
           <div className="overlay"></div>
@@ -267,6 +280,7 @@ const Project = () => {
               href="https://alejandrocountryapi.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               Country API
             </a>
@@ -291,6 +305,7 @@ const Project = () => {
               href="https://github.com/AlejandroV01/CountryAPI"
               target="_blank"
               rel="noreferrer"
+              name="Link to GitHub Repo"
             >
               <FontAwesomeIcon
                 icon={faGithub}
@@ -302,6 +317,7 @@ const Project = () => {
               href="https://alejandrocountryapi.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              name="Link to Website"
             >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}

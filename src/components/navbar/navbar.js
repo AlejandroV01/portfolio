@@ -31,16 +31,16 @@ const Nav = () => {
     <div className="containerOfNav">
       <nav className="container scrolled nav">
         <div className="navLeft">
-          <a href="#toHome">
+          <a href="#toHome" name="To Home Button">
             <p className="navBarP">Home</p>
           </a>
-          <a href="#toProjects">
+          <a href="#toProjects" name="To Projects Button">
             <p className="navBarP">Projects</p>
           </a>
-          <a href="#toAbout">
+          <a href="#toAbout" name="To About Button">
             <p className="navBarP">About</p>
           </a>
-          <a href="#toContact">
+          <a href="#toContact" name="To Contact Button">
             <p className="nav-last navBarP">Contact</p>
           </a>
         </div>
@@ -52,6 +52,7 @@ const Nav = () => {
             href="https://github.com/AlejandroV01"
             target="_blank"
             rel="noreferrer"
+            name="To Github Page"
           >
             <FontAwesomeIcon
               icon={faGithub}
@@ -63,6 +64,7 @@ const Nav = () => {
             href="https://www.linkedin.com/in/alejandro-vera-996579248/"
             target="_blank"
             rel="noreferrer"
+            name="To Linkedin Page"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -74,6 +76,7 @@ const Nav = () => {
             href="mailto:alexvera0109@gmail.com"
             target="_blank"
             rel="noreferrer"
+            name="To Sending An Email"
           >
             <FontAwesomeIcon
               icon={faEnvelope}

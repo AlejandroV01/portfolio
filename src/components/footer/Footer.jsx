@@ -23,16 +23,16 @@ const Footer = () => {
           Want to go back to a specific section?
         </span>
         <div className={styles.buttons}>
-          <a href="#toHome">
+          <a href="#toHome" name="To Home Button">
             <button>Home</button>
           </a>
-          <a href="#toProjects">
+          <a href="#toProjects" name="To Projects Button">
             <button>Projects</button>
           </a>
-          <a href="#toAbout">
+          <a href="#toAbout" name="To About Button">
             <button>About</button>
           </a>
-          <a href="#toContact">
+          <a href="#toContact" name="To Contact Button">
             <button>Contact</button>
           </a>
         </div>
