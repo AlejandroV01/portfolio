@@ -2,7 +2,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
-import React, { useRef } from "react";
 import pic1 from "./algo.PNG";
 import pic4 from "./country.PNG";
 import pic3 from "./dictionary.PNG";
