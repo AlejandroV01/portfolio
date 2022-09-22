@@ -66,11 +66,10 @@ const Project = () => {
           <div className="project-description desc-right">
             <p className="pProject">
               AlgoSaurus implements all the most used sorting algorithms and
-              visualizes them in a chart that has live animated sorting. Users
-              can also add more bars in the chart to sort and make the algorithm
-              go faster or slower to further help the user visualize exactly
-              what is going on. Information is also displayed on each algorithm
-              which gives a description of how the algorithms work.
+              visualizes them with live animated sorting. Users can visualize
+              the algorithms go faster or slower to further help visualize
+              exactly what is going on. Information is also displayed on each
+              algorithm which gives a description of how the algorithms work.
             </p>
           </div>
           <div className="project-skills  inverseFlex">
@@ -78,7 +77,7 @@ const Project = () => {
             <p>Algorithms</p>
             <p>API</p>
             <p>React.js</p>
-            <p>TypeScript</p>
+            <p className="noMarginv2">TypeScript</p>
           </div>
           <div className="links">
             <a
@@ -223,8 +222,8 @@ const Project = () => {
             <p className="noMargin">VS Code</p>
             <p>Sound</p>
             <p>API</p>
-            <p>React.js</p>
-            <p>JavaScript</p>
+            <p className="marginv2">React.js</p>
+            <p className="noMarginv2">JavaScript</p>
           </div>
           <div className="links">
             <a

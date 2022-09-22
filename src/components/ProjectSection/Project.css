@@ -220,7 +220,7 @@ h1 {
   }
 
   .project-description {
-    width: 300px;
+    width: 325px;
     background-color: transparent;
     padding: 0;
     margin: 5px 0;
@@ -240,6 +240,9 @@ h1 {
   }
   .noMarginv2 {
     margin: 0 !important;
+  }
+  .marginv2 {
+    margin-left: 11px;
   }
 }
 
