@@ -39,7 +39,6 @@ const Project = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true }}
         variants={rightProjectAnimation}
         className="project-div project1"
       >
@@ -115,7 +114,7 @@ const Project = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         variants={leftProjectAnimation}
         className="project-div project2"
       >
@@ -187,7 +186,7 @@ const Project = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         variants={rightProjectAnimation}
         className="project-div project3"
       >
@@ -260,7 +259,7 @@ const Project = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
         variants={leftProjectAnimation}
         className="project-div project4"
       >
