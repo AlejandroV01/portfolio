@@ -47,13 +47,21 @@ const Project = () => {
         <a
           href="https://algo-saurus.web.app/"
           className="project-image-div picture-left"
+          target="_blank"
+          rel="noreferrer"
         >
           <img src={pic1} alt="" className="project-image" />
           <div className="overlay"></div>
         </a>
         <div className="project-information info-right">
           <h1>
-            <a href="https://algo-saurus.web.app/">AlgoSaurus</a>
+            <a
+              href="https://algo-saurus.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              AlgoSaurus
+            </a>
           </h1>
           <div className="project-description desc-right">
             <p className="pProject">
@@ -73,14 +81,22 @@ const Project = () => {
             <p>TypeScript</p>
           </div>
           <div className="links">
-            <a href="https://github.com/fidel-bello/shellhacks-visualizer">
+            <a
+              href="https://github.com/fidel-bello/shellhacks-visualizer"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="https://algo-saurus.web.app/">
+            <a
+              href="https://algo-saurus.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
@@ -103,13 +119,21 @@ const Project = () => {
         <a
           href="https://alejandropokemonapi.netlify.app/"
           className="project-image-div picture-right"
+          target="_blank"
+          rel="noreferrer"
         >
           <img src={pic2} alt="" className="project-image" />
           <div className="overlay"></div>
         </a>
         <div className="project-information info-left">
           <h1>
-            <a href="https://alejandropokemonapi.netlify.app/">Pokemon API</a>
+            <a
+              href="https://alejandropokemonapi.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Pokemon API
+            </a>
           </h1>
           <div className="project-description desc-left">
             <p>
@@ -126,14 +150,22 @@ const Project = () => {
             <p>VS Code</p>
           </div>
           <div className="links">
-            <a href="https://github.com/AlejandroV01/pokemonAPI">
+            <a
+              href="https://github.com/AlejandroV01/pokemonAPI"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="https://alejandropokemonapi.netlify.app/">
+            <a
+              href="https://alejandropokemonapi.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
@@ -155,13 +187,21 @@ const Project = () => {
         <a
           href="https://alejandrodictionaryapi.netlify.app/"
           className="project-image-div picture-left"
+          target="_blank"
+          rel="noreferrer"
         >
           <img src={pic3} alt="" className="project-image" />
           <div className="overlay"></div>
         </a>
         <div className="project-information info-right">
           <h1>
-            <a href="https://alejandrodictionaryapi.netlify.app/">Dictionary</a>
+            <a
+              href="https://alejandrodictionaryapi.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Dictionary
+            </a>
           </h1>
           <div className="project-description desc-right">
             <p className="pProject">
@@ -179,14 +219,22 @@ const Project = () => {
             <p>JavaScript</p>
           </div>
           <div className="links">
-            <a href="https://github.com/AlejandroV01/DictionaryAPI">
+            <a
+              href="https://github.com/AlejandroV01/DictionaryAPI"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="https://alejandrodictionaryapi.netlify.app/">
+            <a
+              href="https://alejandrodictionaryapi.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
@@ -207,6 +255,8 @@ const Project = () => {
       >
         <a
           href="https://alejandrocountryapi.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
           className="project-image-div picture-right"
         >
           <img src={pic4} alt="" className="project-image" />
@@ -214,7 +264,13 @@ const Project = () => {
         </a>
         <div className="project-information info-left">
           <h1>
-            <a href="https://alejandrocountryapi.netlify.app/">Country API</a>
+            <a
+              href="https://alejandrocountryapi.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Country API
+            </a>
           </h1>
           <div className="project-description desc-left">
             <p>
@@ -232,14 +288,22 @@ const Project = () => {
             <p>VS Code</p>
           </div>
           <div className="links">
-            <a href="https://github.com/AlejandroV01/CountryAPI">
+            <a
+              href="https://github.com/AlejandroV01/CountryAPI"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
                 className="fontawesomeProject"
               />
             </a>
-            <a href="https://alejandrocountryapi.netlify.app/">
+            <a
+              href="https://alejandrocountryapi.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 size="2x"
