@@ -1,6 +1,10 @@
 .logo {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
-  width: 100px;
+  bottom: 25px;
+  right: 25px;
+  width: 70px;
+  cursor: grab;
+}
+.logo:active {
+  cursor: grabbing;
 }

@@ -16,7 +16,7 @@ const Logo = () => {
 
   //   let con = 0;
   return (
-    <motion.div drag>
+    <motion.div className="container">
       <motion.img
         drag
         src={logoPic}
@@ -25,9 +25,9 @@ const Logo = () => {
         whileDrag={{ scale: 1.2 }}
         whileHover={{ scale: 1.2 }}
         dragConstraints={{
-          left: -1750,
+          left: 0,
           right: 0,
-          top: -650,
+          top: 0,
           bottom: 0,
         }}
         dragTransition={{ bounceStiffness: 100, bounceDamping: 10 }}
