@@ -175,6 +175,9 @@ h1 {
   .project-information p {
     font-size: 1rem;
   }
+  .project-image {
+    height: 255px;
+  }
 }
 @media (max-width: 500px) {
   .project-div {
@@ -194,6 +197,9 @@ h1 {
   }
   .project-skills {
     flex-wrap: wrap;
+  }
+  .project-image {
+    height: 255px;
   }
 }
 @media (max-width: 450px) {

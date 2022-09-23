@@ -40,7 +40,7 @@ const Project = () => {
         PROJECTS
       </motion.h1>
       {/* project with image on left side */}
-      {windowX < 450 ? (
+      {windowX <= 450 ? (
         <div className="project-div project1">
           <a
             href="https://algo-saurus.web.app/"
@@ -184,7 +184,7 @@ const Project = () => {
       {/* project with image on left side */}
       {/* *************************************** */}
       {/* project with image on right side */}
-      {windowX < 450 ? (
+      {windowX <= 450 ? (
         <div className="project-div project2">
           <a
             href="https://alejandropokemonapi.netlify.app/"
@@ -326,7 +326,7 @@ const Project = () => {
 
       {/* project with image on right side */}
       {/* project with image on left side */}
-      {windowX < 450 ? (
+      {windowX <= 450 ? (
         <div className="project-div project3">
           <a
             href="https://alejandrodictionaryapi.netlify.app/"
@@ -468,7 +468,7 @@ const Project = () => {
 
       {/* project with image on left side */}
       {/* project with image on right side */}
-      {windowX < 450 ? (
+      {windowX <= 450 ? (
         <div className="project-div project4">
           <a
             href="https://alejandrocountryapi.netlify.app/"
