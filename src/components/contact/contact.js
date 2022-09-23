@@ -38,7 +38,7 @@ const Contact = () => {
       setIsPopup(false);
     }, 2000);
   };
-  console.log(isPopup);
+
   return (
     <div className={styles.container}>
       <a name="toContact" href=" " className="anchor">

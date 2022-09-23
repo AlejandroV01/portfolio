@@ -11,7 +11,6 @@ const Nav = () => {
     setShowMenu((prev) => !prev);
   };
 
-  console.log(showMenu);
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -31,10 +30,10 @@ const Nav = () => {
     <div className="containerOfNav">
       <nav className="container scrolled nav">
         <div className="navLeft">
-          <a href="#toHome" name="To Home Button">
+          <a href="#toHome" name="To Home Button" className="aTag">
             <p className="navBarP">Home</p>
           </a>
-          <a href="#toProjects" name="To Projects Button">
+          <a href="#toProjects" name="To Projects Button" className="aTag">
             <p className="navBarP">Projects</p>
           </a>
           <a href="#toAbout" name="To About Button">
