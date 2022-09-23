@@ -245,6 +245,6 @@ h1 {
     margin-left: 11px;
   }
 }
-
-/* make a hover animation for the github and popup
-only pointer:cursor on title */
+.mobileCursor {
+  cursor: default;
+}
