@@ -65,11 +65,12 @@ const Project = () => {
             </h1>
             <div className="project-description desc-right">
               <p className="pProject">
-                AlgoSaurus implements all the most used sorting algorithms and
-                visualizes them with live animated sorting. Users can visualize
-                the algorithms go faster or slower to further help visualize
-                exactly what is going on. Information is also displayed on each
-                algorithm which gives a description of how the algorithms work.
+                AlgoSaurus is a collaborative Hackathon project made at
+                ShellHacks 2022 and placed 3rd Overall. AlgoSaurus implements
+                all the most used sorting algorithms and visualizes them with
+                live animated sorting. Users can visualize the algorithms go
+                faster or slower to further help visualize exactly what is going
+                on.
               </p>
             </div>
             <div className="project-skills  inverseFlex">
@@ -137,11 +138,12 @@ const Project = () => {
             </h1>
             <div className="project-description desc-right">
               <p className="pProject">
-                AlgoSaurus implements all the most used sorting algorithms and
-                visualizes them with live animated sorting. Users can visualize
-                the algorithms go faster or slower to further help visualize
-                exactly what is going on. Information is also displayed on each
-                algorithm which gives a description of how the algorithms work.
+                AlgoSaurus is a collaborative Hackathon project made at
+                ShellHacks 2022 and placed 3rd Overall. AlgoSaurus implements
+                all the most used sorting algorithms and visualizes them with
+                live animated sorting. Users can visualize the algorithms go
+                faster or slower to further help visualize exactly what is going
+                on.
               </p>
             </div>
             <div className="project-skills  inverseFlex">
