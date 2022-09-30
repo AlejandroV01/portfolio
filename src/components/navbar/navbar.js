@@ -1,10 +1,10 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import { React, useState } from "react";
+import resume from "./ALEJANDROVERA.pdf";
 import "./navbar.css";
-
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
   const handleShowMenu = () => {
@@ -40,7 +40,16 @@ const Nav = () => {
             <p className="navBarP">About</p>
           </a>
           <a href="#toContact" name="To Contact Button">
-            <p className="nav-last navBarP">Contact</p>
+            <p className="navBarP">Contact</p>
+          </a>
+          <a
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+            name="Open Resume"
+            download="AlejandroVeraResume"
+          >
+            <p className="nav-last navBarP">Resume</p>
           </a>
         </div>
         <div className="hamburgerDiv" onClick={handleShowMenu}>
@@ -67,18 +76,6 @@ const Nav = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              size="2x"
-              className="fontawesome"
-            />
-          </a>
-          <a
-            href="mailto:alexvera0109@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            name="To Sending An Email"
-          >
-            <FontAwesomeIcon
-              icon={faEnvelope}
               size="2x"
               className="fontawesome"
             />
