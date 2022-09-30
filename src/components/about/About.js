@@ -60,7 +60,7 @@ const About = () => {
             <ul>
               <li>VSCode</li>
               <li>Java</li>
-              <li>TypeScript</li>
+              <li>Firebase</li>
             </ul>
           </div>
         </div>
