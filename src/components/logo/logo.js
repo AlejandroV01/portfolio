@@ -10,8 +10,6 @@ const Logo = () => {
     windowX.current = window.innerWidth;
     windowY.current = window.innerHeight;
     // console.log(windowX.current);
-
-    console.log(windowX.current);
   });
 
   //   let con = 0;

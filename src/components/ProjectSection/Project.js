@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import pic1 from "./algo.PNG";
 import pic4 from "./country.PNG";
-import pic3 from "./dictionary.PNG";
+import pic3 from "./firechat.PNG";
 import pic2 from "./pokemon.PNG";
 import "./Project.css";
 const Project = () => {
@@ -343,20 +343,19 @@ const Project = () => {
           <div className="project-information info-right">
             <h1>
               <a
-                href="https://alejandrodictionaryapi.netlify.app/"
+                href="https://thefirechat.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 name="Link to Website"
               >
-                Dictionary
+                Firechat
               </a>
             </h1>
             <div className="project-description desc-right">
               <p className="pProject">
-                A simple yet educational web app which displays various
-                information on an input of a word. This web app returns to the
-                user the definition of the word, the part of speech, and an
-                audio of how to pronounce the word.
+                A project focused around communication. Firechat is a webapp
+                that enables users to chat via channels. Users will be prompted
+                to authenticate their account and login in order to chat LIVE.
               </p>
             </div>
             <div className="project-skills  inverseFlex">
@@ -368,7 +367,7 @@ const Project = () => {
             </div>
             <div className="links">
               <a
-                href="https://github.com/AlejandroV01/DictionaryAPI"
+                href="https://github.com/AlejandroV01/FireChat"
                 target="_blank"
                 rel="noreferrer"
                 name="Link to GitHub Repo"
@@ -380,7 +379,7 @@ const Project = () => {
                 />
               </a>
               <a
-                href="https://alejandrodictionaryapi.netlify.app/"
+                href="https://thefirechat.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 name="Link to Website"
@@ -415,32 +414,30 @@ const Project = () => {
           <div className="project-information info-right">
             <h1>
               <a
-                href="https://alejandrodictionaryapi.netlify.app/"
+                href="https://thefirechat.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 name="Link to Website"
               >
-                Dictionary
+                Firechat
               </a>
             </h1>
             <div className="project-description desc-right">
               <p className="pProject">
-                A simple yet educational web app which displays various
-                information on an input of a word. This web app returns to the
-                user the definition of the word, the part of speech, and an
-                audio of how to pronounce the word.
+                A project focused around communication. Firechat is a webapp
+                that enables users to chat via channels. Users will be prompted
+                to authenticate their account and login in order to chat LIVE.
               </p>
             </div>
             <div className="project-skills  inverseFlex">
-              <p className="noMargin">VS Code</p>
-              <p>Sound</p>
-              <p>API</p>
-              <p className="marginv2">React.js</p>
-              <p className="noMarginv2">JavaScript</p>
+              <p className="noMargin">Live Chat</p>
+              <p>Authentication</p>
+              <p className="marginv2">Firebase</p>
+              <p className="noMarginv2">React.js</p>
             </div>
             <div className="links">
               <a
-                href="https://github.com/AlejandroV01/DictionaryAPI"
+                href="https://github.com/AlejandroV01/FireChat"
                 target="_blank"
                 rel="noreferrer"
                 name="Link to GitHub Repo"
@@ -452,7 +449,7 @@ const Project = () => {
                 />
               </a>
               <a
-                href="https://alejandrodictionaryapi.netlify.app/"
+                href="https://thefirechat.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 name="Link to Website"
