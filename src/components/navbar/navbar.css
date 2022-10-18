@@ -61,3 +61,10 @@ p {
     padding: 2rem 2rem !important;
   }
 }
+
+.navBarP {
+  color: rgb(70, 70, 70);
+}
+.resumeText {
+  color: #000000;
+}

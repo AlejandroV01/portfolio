@@ -8,7 +8,6 @@
   margin: 0 100px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  padding-bottom: 5rem;
   max-width: 1000px;
 }
 
@@ -66,4 +65,45 @@
   .aboutPic {
     width: 350px;
   }
+}
+
+.resumeButtonDiv {
+  margin: 2rem 0;
+  text-decoration: none;
+}
+
+.resumeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ce5252;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 1rem;
+  text-decoration: none;
+  gap: 5px;
+}
+
+.pdf {
+  color: #121330;
+  text-decoration: none;
+}
+
+.resumeButton div {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: "Comfortaa";
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
 }

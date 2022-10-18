@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { MdPictureAsPdf } from "react-icons/md";
+import resume from "../navbar/ALEJANDROVERA.pdf";
 import styles from "./About.module.css";
 const About = () => {
   const headerAnimation = {
@@ -75,6 +77,20 @@ const About = () => {
             className={styles.aboutPic}
           />
         </div>
+      </div>
+      <div className={styles.resumeButtonDiv}>
+        <a
+          href={resume}
+          target="_blank"
+          rel="noreferrer"
+          name="Open Resume"
+          download="AlejandroVeraResume"
+        >
+          <button className={styles.resumeButton}>
+            <MdPictureAsPdf className={styles.pdf} size={25} />
+            <div>Resume</div>
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -49,7 +49,7 @@ const Nav = () => {
             name="Open Resume"
             download="AlejandroVeraResume"
           >
-            <p className="nav-last navBarP">Resume</p>
+            <p className="nav-last navBarP resumeText">Resume</p>
           </a>
         </div>
         <div className="hamburgerDiv" onClick={handleShowMenu}>
