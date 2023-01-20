@@ -1,64 +1,53 @@
-import emailjs from "@emailjs/browser";
-import { motion } from "framer-motion";
-import React, { useRef, useState } from "react";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdEmail } from "react-icons/md";
-import styles from "./contact.module.css";
+import emailjs from '@emailjs/browser'
+import { motion } from 'framer-motion'
+import React, { useRef, useState } from 'react'
+import { BsFillTelephoneFill } from 'react-icons/bs'
+import { HiLocationMarker } from 'react-icons/hi'
+import { MdEmail } from 'react-icons/md'
+import styles from './contact.module.css'
 const Contact = () => {
-  const [isPopup, setIsPopup] = useState(false);
+  const [isPopup, setIsPopup] = useState(false)
   const headerAnimation = {
     hidden: { opacity: 0, y: -40 },
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
-  };
+  }
 
-  const form = useRef();
+  const form = useRef()
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = e => {
+    e.preventDefault()
 
     emailjs
-      .sendForm(
-        `${process.env.REACT_APP_SERVICE_KEY}`,
-        `${process.env.REACT_APP_TEMPLATE_KEY}`,
-        form.current,
-        `${process.env.REACT_APP_PUBLIC_KEY}`
-      )
+      .sendForm(`${process.env.REACT_APP_SERVICE_KEY}`, `${process.env.REACT_APP_TEMPLATE_KEY}`, '#myForm', `${process.env.REACT_APP_PUBLIC_KEY}`)
       .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
+        result => {
+          console.log(result.text)
+          console.log('message sent')
         },
-        (error) => {
-          console.log(error.text);
+        error => {
+          console.log(error.text)
         }
-      );
-    setIsPopup(true);
+      )
+    setIsPopup(true)
     setTimeout(() => {
-      setIsPopup(false);
-    }, 2000);
-  };
+      setIsPopup(false)
+    }, 2000)
+  }
 
   return (
     <div className={styles.container}>
-      <a name="toContact" href=" " className="anchor">
-        {" "}
+      <a name='toContact' href=' ' className='anchor'>
+        {' '}
       </a>
       <div className={styles.projectTitleDiv}>
-        <motion.h1
-          initial="hidden"
-          whileInView="visible"
-          variants={headerAnimation}
-          viewport={{ once: true }}
-          className="project-title"
-        >
+        <motion.h1 initial='hidden' whileInView='visible' variants={headerAnimation} viewport={{ once: true }} className='project-title'>
           Contact Me
         </motion.h1>
       </div>
 
       <div className={styles.contactDiv}>
         <div className={isPopup ? styles.popContainer : styles.popContainerOff}>
-          <h1 style={{ color: "black" }}>🎉Message Sent🎉</h1>
+          <h1 style={{ color: 'black' }}>🎉Message Sent🎉</h1>
         </div>
         <div className={styles.leftSide}>
           <div className={styles.bar}>
@@ -83,33 +72,19 @@ const Contact = () => {
         </div>
 
         <div className={styles.rightSide}>
-          <form ref={form} onSubmit={sendEmail} className={styles.form}>
+          <form ref={form} onSubmit={sendEmail} className={styles.form} id='myForm'>
             <label className={styles.labels}>Name</label>
-            <input
-              className={styles.inputs}
-              type="text"
-              name="user_name"
-              placeholder="Full Name..."
-            />
+            <input className={styles.inputs} type='text' name='user_name' placeholder='Full Name...' />
             <label className={styles.labels}>Email</label>
-            <input
-              className={styles.inputs}
-              type="email"
-              name="user_email"
-              placeholder="example@gmail.com..."
-            />
+            <input className={styles.inputs} type='email' name='user_email' placeholder='example@gmail.com...' />
             <label className={styles.labels}>Message</label>
-            <textarea
-              name="message"
-              className={styles.textarea}
-              placeholder="Send me your thoughts and feedback, I appreciate it"
-            />
-            <input type="submit" value="Send" className={styles.button} />
+            <textarea name='message' className={styles.textarea} placeholder='Send me your thoughts and feedback, I appreciate it' />
+            <input type='submit' value='Send' className={styles.button} />
           </form>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
