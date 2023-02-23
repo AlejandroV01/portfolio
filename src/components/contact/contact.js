@@ -18,7 +18,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm(`${process.env.REACT_APP_SERVICE_KEY}`, `${process.env.REACT_APP_TEMPLATE_KEY}`, '#myForm', `${process.env.REACT_APP_PUBLIC_KEY}`)
+      .sendForm(`${process.env.REACT_APP_SERVICE_KEY}`, `${process.env.REACT_APP_TEMPLATE_KEY}`, form.current, `${process.env.REACT_APP_PUBLIC_KEY}`)
       .then(
         result => {
           console.log(result.text)
@@ -72,7 +72,7 @@ const Contact = () => {
         </div>
 
         <div className={styles.rightSide}>
-          <form ref={form} onSubmit={sendEmail} className={styles.form} id='myForm'>
+          <form ref={form} onSubmit={sendEmail} className={styles.form}>
             <label className={styles.labels}>Name</label>
             <input className={styles.inputs} type='text' name='user_name' placeholder='Full Name...' />
             <label className={styles.labels}>Email</label>

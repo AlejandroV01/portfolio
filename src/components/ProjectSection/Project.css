@@ -209,7 +209,7 @@ h1 {
   }
 
   .project2 {
-    background-image: url(./pokemonSmall.PNG);
+    background-image: url(./gamedealSmall.PNG);
     background-size: cover;
   }
   .project3 {
@@ -217,7 +217,7 @@ h1 {
     background-size: contain;
   }
   .project4 {
-    background-image: url(./countrySmall.PNG);
+    background-image: url(./pokemonSmall.PNG);
     background-size: 100%;
   }
   .project-div {

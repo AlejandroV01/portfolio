@@ -94,8 +94,8 @@
 }
 
 .popContainerOff {
-  transform: scale(0.5);
-  opacity: 0;
+  transform: scale(0);
+  opacity: 1;
   transition: 300ms;
   color: black !important;
 }
